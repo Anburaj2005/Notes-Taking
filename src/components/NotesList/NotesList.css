@@ -1,0 +1,41 @@
+
+
+.not-found {
+    margin: 24px 12px;
+}
+.notes {
+    margin: 24px 12px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 1px 9px;
+    padding: 40px 36px 40px 36px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+.notes-list {
+    margin: 36px 0;
+    gap: 16px;
+}
+.notes-item {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    position: relative;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: rgba(0, 0, 0, 0.02);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 8px 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.notes-list{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.notes-item-btn{
+    color:red
+}
+
+.notes-item-btns{
+    color:black;
+    padding:10px
+}
